@@ -1,0 +1,68 @@
+{
+  "data": [
+    {
+      "listName": "Skills",
+      "listData": [
+        {
+          "itemTitle": "Web Design",
+          "itemDetail":"Html5、Css3、Scss、Rwd、Bootstrap5、AdobeXD、Figma、Dreamweaver"
+        },
+        {
+          "itemTitle": "Front-end",
+          "itemDetail":"JavaScript、Ajax、jQuery、Webpack、React、ReactNative、Redux、SourceTree、Github"
+        },
+        {
+          "itemTitle": "Back-end",
+          "itemDetail":"Php7、MySQL"
+        },
+        {
+          "itemTitle": "Commercial Design",
+          "itemDetail":"VI Design、Package、Graphic、Mascot、MICE"
+        }
+      ]
+    },
+    {
+      "listName": "Works",
+      "listData": [
+        {
+          "itemTitle": "2020 - 2020：",
+          "itemDetail":"視覺設計 | 安益國際展覽股份有限公司 (1yr)"
+        },
+        {
+          "itemTitle": "2018 - 2018：",
+          "itemDetail":"設計助理 | 北歐設計顧問有限公司 (3mos)"
+        },
+        {
+          "itemTitle": "2017 - 2019：",
+          "itemDetail":"商業設計 | 產學合作&自由接案 (2yrs 4mos)"
+        },
+        {
+          "itemTitle": "2015 - 2016：",
+          "itemDetail":"設計美編 | 亞洲大學育成中心_良好設計股份有限公司進駐點 (11mos)"
+        }
+      ]
+    },
+    {
+      "listName": "Education",
+      "listData": [
+        {
+          "itemTitle": "2017 - 2019：",
+          "itemDetail":"國立臺中科技大學 | 商業設計系 碩士"
+        },
+        {
+          "itemTitle": "2014 - 2017：",
+          "itemDetail":"亞洲大學 | 增修：創意領導學程 大學"
+        },
+        {
+          "itemTitle": "2014 - 2017：",
+          "itemDetail":"亞洲大學 | 增修：幼兒潛能開發學程 大學"
+        },
+        {
+          "itemTitle": "2013 - 2017：",
+          "itemDetail":"亞洲大學 | 主修：視覺傳達設計學系 大學"
+        }
+      ]
+    }
+  ],
+  "id": "HomeData"
+}
