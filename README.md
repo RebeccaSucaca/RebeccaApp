@@ -14,14 +14,14 @@
 * ##### 額外完成 : Stack Navigator、Todolist
 
 ## 影片展示
----
+
 
 #### [► 點我觀看](https://www.canva.com/design/DAFDKuhwv0Y/00SdrgbkVDhrLK5KC5z-JQ/watch?utm_content=DAFDKuhwv0Y&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 
 
 ## 目錄結構描述
----
+
 ```
 ├── android                     // android相關設定
 ├── ios                         // ios相關設定
@@ -55,7 +55,7 @@
 
 
 ## 專案時間紀錄
----
+
 > ##### 由於操作期間皆為邊找資料邊實作，以下時間為大約估計值
 
 
@@ -93,7 +93,7 @@ Step5. 程式架構&README撰寫
 - README.md撰寫（格式與內容處理） [ 5hr ]
 
 ## 項目展示
----
+
 
  - ### DrawerNavigation、TabNavigation
 
@@ -120,7 +120,7 @@ Step5. 程式架構&README撰寫
 
 
 ## 其他：踩坑微紀錄
----
+
 - 各式環境打包、路徑、版本問題
 - 專案位置問題（勿放在同步資料夾）
 - Xcode＆Android讀取icon個別問題
@@ -129,14 +129,14 @@ Step5. 程式架構&README撰寫
 
 
 ## 補充：針對目前進度自評還可改進與思考部分
----
+
 - PortfolioScreen & PortfolioScreenDetail中ftech的是同一個api文件，可在/src目錄中新增/hook資料夾並新增usePortfolioApi當作一個hook使用
 - 增加設定主題色彩功能
 - 若有登入功能的導覽頁面配置
 
 
 ## IOS、Android的上架流程與注意事項
----
+
 > ios流程
 
 * Step.1：準備已付費的開發者賬號
