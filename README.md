@@ -16,7 +16,7 @@
 ## 影片展示
 
 
-#### [► 點我觀看]（https://www.canva.com/design/DAFDKuhwv0Y/00SdrgbkVDhrLK5KC5z-JQ/watch?utm_content=DAFDKuhwv0Y&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink）
+#### [► 點我觀看](https://www.canva.com/design/DAFDKuhwv0Y/00SdrgbkVDhrLK5KC5z-JQ/watch?utm_content=DAFDKuhwv0Y&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 
 
