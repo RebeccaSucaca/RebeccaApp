@@ -16,7 +16,7 @@
 ## 影片展示
 
 
-#### [► 點我觀看](https://www.canva.com/design/DAFDKuhwv0Y/00SdrgbkVDhrLK5KC5z-JQ/watch?utm_content=DAFDKuhwv0Y&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+#### [► 點我觀看]（https://www.canva.com/design/DAFDKuhwv0Y/00SdrgbkVDhrLK5KC5z-JQ/watch?utm_content=DAFDKuhwv0Y&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink）
 
 
 
@@ -39,7 +39,7 @@
 │       ├── PortfolioScreenDetail.js   
 │       └── TodoScreen.js              
 │   ├── style                   // 色彩設定
-│   └── CustomHeader.js         // 所有頁面共用組件(Header)
+│   └── CustomHeader.js         // 所有頁面共用組件（Header）
 ├── App.js                   
 ├── babel.config.js             // 編譯
 ├── index.js                    // 入口文件
@@ -59,13 +59,13 @@
 > ##### 由於操作期間皆為邊找資料邊實作，以下時間為大約估計值
 
 
-Step1. 環境建置(使用ReactNative-Cli) [ 10hr ]
+Step1. 環境建置（使用ReactNative-Cli） [ 10hr ]
 - 環境架設（包含Xcode、Android Studio）
 - 包含瀏覽ReactNative相關文章，包含：
     
     React Native Cli & Expo Cli差別
 
-    ithelp.ithome教學文章(後續使用以React Native官方文件文主）
+    ithelp.ithome教學文章（後續使用以React Native官方文件文主）
 
 Step2. Navigation設定
 
@@ -82,9 +82,9 @@ Step3. 版面風格配置
 
 Step4. Api串接
 
-- Home:json格式內容設計＋fetch+版面[ 3hr ]
-- Home:json格式內容設計＋fetch+版面（包含detail頁面）[ 4hr ]
-:::
+- Home：json格式內容設計＋fetch+版面[ 3hr ]
+- Home：json格式內容設計＋fetch+版面（含detail頁面）[ 4hr ]
+
 
 
 Step5. 程式架構&README撰寫
@@ -137,61 +137,60 @@ Step5. 程式架構&README撰寫
 
 ## IOS、Android的上架流程與注意事項
 
-> ios流程
+### ios
 
-* Step.1：準備已付費的開發者賬號
-    * 蘋果開發者中心 >「 Account 」> 登入
-* Step.2：生成發佈證書
-    * 生成證書
-    * 選擇生産證書（選擇App Store and Ad Hoc）>「 Continue 」
-        * 上傳CSR文件（獲取證書用：回本機電腦操作）
-        * 回到瀏覽器，選擇CertificateSigningRequest.certSigningRequest 文件 
-    * 下載生成的證書（cer字尾的文件）
-        * ！！！註意：證書只能下載一次。點選下載後，若關閉頁麵就不能再回到下載頁面了。
-* Step.3：建立App IDs和綁定App的Bundle Identifier
-    * 注意！Bundle Identifier（不能有符號，只能英文加數字）
-* Step.4：生成描述文件（把證書和Bundle Identifier關聯起來）
-    * 到Provisioning Profiles（iOS, tvOS, watchOS）添加證書
-        * App ID使用剛剛建立的
-        * Profile Name輸入
-* Step.5：在App Store開闢空間
-    * 名稱不要太大眾化，不容易審核通過
-    * 價格只能暫時免費（開發者帳號有納稅契約）
-    * APP各尺寸截圖
-    * 填寫各式內容
-* Step.6：在Xcode中打包專案
-
-注意事項：
-確認Xcode＆ MacOS系統是否為正版（beta版本不行）
-蘋果一個開發者賬號只能有1-2個開發（測試）證書，2-3個生産（PO）證書）
+> * Step.1：準備已付費的開發者賬號
+> * Step.2：取得發佈憑證（Certificates）
+>     * 建立憑證（Certificates, Identifiers & Profiles）
+>     * 選擇生産憑證（選擇App Store and Ad Hoc）>「 > Continue 」
+>         * 上傳CSR文件（獲取憑證用：回本機電腦操作）
+>         * 回到瀏覽器選擇CertificateSigningRequest.certSigningRequest 文件 
+>     * 下載的憑證（cer字尾的文件）
+>         * ！！！註意：憑證只能下載一次。點選下載後，若關閉頁麵就不能再回到下載頁面了。
+> * Step.3：建立App IDs和綁定App的Bundle Identifier
+>     * 注意！Bundle Identifier（不能有符號，只能英文加數字）
+> * Step.4：生成描述文件（把憑證和Bundle Identifier關聯起來）
+>     * 到Provisioning Profiles（iOS, tvOS, watchOS）添加憑證
+>         * App ID使用剛剛建立的
+>         * Profile Name輸入
+> * Step.5：在App Store開闢空間
+>     * 名稱不要太大眾化，否則不容易審核通過
+>     * 價格只能暫時免費（開發者帳號有納稅契約）
+>     * APP各尺寸截圖
+>     * 填寫各式內容
+> * Step.6：在Xcode中打包專案
+> 
+> 注意事項：
+> 確認Xcode＆ MacOS系統是否為正版（beta版本不行）
+> 蘋果一個開發者賬號只能有1-2個開發（測試）憑證，2-3個生産（PO）憑證）
 
 ---
-> Android流程
+### Android
 
-* Step.1：設定App Signing（應用程式簽署金鑰）
-    * 憑證(Certificates) and Keystores
-    * Google Play App Signing
-    * 如何設定Google Play App Signing
-* Step.2：建立Keystore（保存未來要上架用的upload key）
-* Step.3：設定Release Config（Gradle設定）
-    * 設定Gradle參數
-    * 在Gradle Config中新增Signing Config
-* Step.4：產生簽署過的APK檔
-    * 編輯app/build.gradle、applicationId、versionCode及versionName
-    * 執行build script
-* Step.5：上傳APK至Google Play Console
-    * 到Google Play Console >「 版本管理 」>「 應用程式版本 」
-    * 選擇群組 >「 管理 」
-        * 測試階段，選「內部測試群組」
-        * 若要正式上架，選「正式版測試群組」
-    * 選擇「建立新版本」：
-    * 填寫Release Note >「 審核 」
+> * Step.1：設定App Signing（應用程式簽署金鑰）
+>     * 憑證（Certificates） and Keystores
+>     * Google Play App Signing
+>     * 如何設定Google Play App Signing
+> * Step.2：建立Keystore（保存未來要上架用的upload key）
+> * Step.3：設定Release Config（Gradle設定）
+>     * 設定Gradle參數
+>      * 在Gradle Config中新增Signing Config
+> * Step.4：產生簽署過的APK檔
+>     * 編輯app/build.gradle、applicationId、versionCode及versionName
+>     * 執行build script
+> * Step.5：上傳APK至Google Play Console
+>     * 到Google Play Console >「 版本管理 」>「 應用程式版本 」
+>     * 選擇群組 >「 管理 」
+>         * 測試階段，選「內部測試群組」
+>         * 若要正式上架，選「正式版測試群組」
+>     * 選擇「建立新版本」：
+>     * 填寫Release Note >「 審核 」
+> 
+> 
+> ##### 上傳完成，upload key資訊出現在Console裡，表示upload key設定一併設定完成
 
 
-##### 上傳完成，upload key資訊出現在Console裡，表示upload key設定一併設定完成
-
-
-#### 參考：
+#### 上架流程參考：
 #### https://reurl.cc/M0GOvX
 #### https://robby570.tw/backup-react-native-deploy-to-store/
 #### https://www.twblogs.net/a/5b7c072b2b71770a43d8f1fd
