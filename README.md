@@ -27,9 +27,9 @@
 ├── ios                         // ios相關設定
 ├── src                         
 │   ├── components              // 可共用組件區
-│   ├── constants               // 開發環境
-│   ├── drawer                  // 實驗
-│   ├── img                     // 配置控制
+│   ├── constants               // require image
+│   ├── drawer                  // CustomDrawer
+│   ├── img                     
 │   ├── screen                  // 主要畫面
 │       ├── HomeScreen          // HomeScreen使用組件
 │       ├── TodoScreen          // TodoScreen使用組件  
@@ -45,8 +45,6 @@
 ├── index.js                    // 入口文件
 ├── metro.config.js             // 打包配置文件
 ├── app.json               
-├── logger-service.js           // 啟動日誌配置
-├── node_modules                // 模組包
 ├── package-lock.json           // 模組管理
 ├── package.json                // 模組管理
 └── README.md                   
